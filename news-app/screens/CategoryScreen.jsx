@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, ActivityIndicator } from 'react-nativ
 import { NewsCard } from '../components/NewsCard';
 import { styles } from './App.styles';
 
-const API_KEY = '695e07af402f4b119f0703e9b19f4683'; // Replace with your API Key
+const API_KEY = 'XXXXXXXXXXXXXXXXX'; // Replace with your API Key
 
 const CategoriesScreen = ({ route }) => {
   const { category } = route.params;
