@@ -6,7 +6,7 @@ import axios from "axios";
 import { NewsCard } from "../components/NewsCard";
 
 export const HomeScreen = () => {
-    const API_KEY = '695e07af402f4b119f0703e9b19f4683';
+    const API_KEY = 'XXXXXXXXXXXXXXXXXXXX';  // Replace with your API_KEY
     const COUNTRY = 'us';
     const [news, setNews] = useState([]);
     const [loading, setLoading] = useState(true);
